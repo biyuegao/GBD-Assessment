@@ -1,6 +1,11 @@
 Environment setting up to run the demo
    software : docker,postman
 
+app docker image : https://hub.docker.com/repository/docker/biyue/xp-management
+db docker image : https://hub.docker.com/repository/docker/biyue/postgres
+git url : https://github.com/biyuegao/GBD-Assessment
+
+
 Step 1 : pull jar image and db image 
 docker pull biyue/postgres:latest
 docker pull biyue/xp-management:0.0.1-SNAPSHOT 
